@@ -1,0 +1,27 @@
+{
+	"nodes":[
+		{"id":"ff5affa35776b02f","x":-260,"y":-60,"width":160,"height":60,"color":"5","type":"text","text":"Component"},
+		{"id":"018baf3c918f7399","x":-80,"y":-260,"width":220,"height":120,"color":"2","type":"text","text":"Action - джаваскрипт об'єкти, які наший компонент може покласти в стор "},
+		{"id":"37d857ac2287c892","x":-60,"y":160,"width":105,"height":60,"color":"2","type":"text","text":"State"},
+		{"id":"3ea2a0e7b30d457c","x":260,"y":160,"width":140,"height":60,"color":"3","type":"text","text":"subscribe"},
+		{"id":"da5209de319744bf","x":260,"y":60,"width":140,"height":60,"color":"3","type":"text","text":"getState"},
+		{"id":"f744881128ffa519","x":810,"y":-260,"width":250,"height":60,"color":"2","type":"text","text":"Redux store"},
+		{"id":"cf62dadfa5028933","type":"text","text":"Component","x":-600,"y":-60,"width":160,"height":60,"color":"5"},
+		{"id":"707c3c1abf637290","type":"text","text":"Component","x":-440,"y":-230,"width":160,"height":60,"color":"5"},
+		{"id":"6b00223a17ff41ad","x":-280,"y":-220,"width":130,"height":50,"color":"3","type":"text","text":"useState"},
+		{"id":"08e357786f5b194b","x":260,"y":-260,"width":140,"height":60,"color":"3","type":"text","text":"Dispatch"},
+		{"id":"341ef431faea7dee","x":521,"y":-200,"width":260,"height":120,"color":"5","type":"text","text":"Reducer - чиста функція яка приймає минулий стан і екшн і повертає минулий стан"},
+		{"id":"dc07cf30ba659df5","x":521,"y":-30,"width":125,"height":60,"color":"4","type":"text","text":"State"}
+	],
+	"edges":[
+		{"id":"165a45915f523a81","fromNode":"37d857ac2287c892","fromSide":"left","toNode":"ff5affa35776b02f","toSide":"bottom"},
+		{"id":"277575c1a520cb29","fromNode":"018baf3c918f7399","fromSide":"left","toNode":"ff5affa35776b02f","toSide":"top"},
+		{"id":"8c39300eb4288591","fromNode":"018baf3c918f7399","fromSide":"right","toNode":"08e357786f5b194b","toSide":"left"},
+		{"id":"ba3c77068a4f9e95","fromNode":"3ea2a0e7b30d457c","fromSide":"left","toNode":"37d857ac2287c892","toSide":"right","toEnd":"none"},
+		{"id":"d633d46a9f92874e","fromNode":"da5209de319744bf","fromSide":"top","toNode":"08e357786f5b194b","toSide":"bottom"},
+		{"id":"ca4a253f5c913550","fromNode":"f744881128ffa519","fromSide":"left","toNode":"08e357786f5b194b","toSide":"right","toEnd":"none"},
+		{"id":"2cd454b7a0a4d639","fromNode":"f744881128ffa519","fromSide":"bottom","toNode":"3ea2a0e7b30d457c","toSide":"right","toEnd":"none"},
+		{"id":"8098014f2c3f690e","fromNode":"707c3c1abf637290","fromSide":"bottom","toNode":"ff5affa35776b02f","toSide":"top"},
+		{"id":"c37728bc724fe4f4","fromNode":"707c3c1abf637290","fromSide":"bottom","toNode":"cf62dadfa5028933","toSide":"top"}
+	]
+}

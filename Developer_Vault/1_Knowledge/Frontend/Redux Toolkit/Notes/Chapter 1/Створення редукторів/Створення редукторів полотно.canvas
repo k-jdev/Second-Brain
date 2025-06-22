@@ -1,0 +1,11 @@
+{
+	"nodes":[
+		{"id":"6fe584dee55167d8","type":"file","file":"Developer_Vault/1_Knowledge/Frontend/Redux Toolkit/Notes/Chapter 1/Створення редукторів/Упрощение создания редукторов с помощью createReducer().md","x":200,"y":-60,"width":600,"height":400},
+		{"id":"21ad4755d46e1c73","x":260,"y":-580,"width":580,"height":400,"type":"file","file":"Developer_Vault/1_Knowledge/Frontend/Redux Toolkit/Notes/Chapter 1/Створення редукторів/Легший приклад, ніж нижче.md"},
+		{"id":"75392510cc7637ef","type":"file","file":"Developer_Vault/1_Knowledge/Frontend/Redux Toolkit/Notes/Chapter 1/Створення редукторів/редуктори.md","x":-340,"y":0,"width":400,"height":400}
+	],
+	"edges":[
+		{"id":"f86091cada8a4a9c","fromNode":"75392510cc7637ef","fromSide":"right","toNode":"6fe584dee55167d8","toSide":"left"},
+		{"id":"675c4cea3d0e7fa4","fromNode":"21ad4755d46e1c73","fromSide":"bottom","toNode":"6fe584dee55167d8","toSide":"top"}
+	]
+}
