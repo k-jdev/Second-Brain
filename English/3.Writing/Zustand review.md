@@ -1,0 +1,1 @@
+Okay, today i learned about zustand a lot of information in my opinion that is good library for creating some fast and not large applications
